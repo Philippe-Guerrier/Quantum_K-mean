@@ -1,4 +1,4 @@
-# Quantum K-Means (Qiskit) — Swap-Test Distance
+# Quantum K-Means (Qiskit) - Swap-Test Distance
 
 Academic demo that implements **k-means clustering** using a **quantum-inspired distance** computed with a **swap test** in **Qiskit**. The notebook generates a 2D synthetic dataset, iteratively updates centroids with a quantum distance oracle, and visualizes the final clusters and centroids.
 
@@ -68,12 +68,12 @@ If you prefer the latest Qiskit (≥ 1.0), APIs for execution changed. See the n
 
 ## How to Run
 
-### Option A — Jupyter
+### Option A - Jupyter
 1. Create and activate a virtual environment (optional).
 2. Install the requirements (see above).
 3. Open the notebook and **Run All**.
 
-### Option B — Convert to a Script (Optional)
+### Option B - Convert to a Script (Optional)
 You can extract the notebook logic into, e.g., `qkmeans.py`:
 - Keep the functions `quantum_distance(...)` and `quantum_k_means(...)`.
 - Use `matplotlib` to render the final scatter and centroids.
